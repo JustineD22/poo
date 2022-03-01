@@ -7,12 +7,12 @@ spl_autoload_register(function($className){
     include './classes/' . $className . '.php';
 });
 
-// $test = new User();
-// $test->setUserName("Donnadieu");
-// $test->setUserFirstame("Justine");
-// $test->setUserEmail("juju.donnadieu@hotmail.fr");
-// $test->setBirthDate("2002-03-22");
+// $test = new Admin();
+// // $test->setUserName("Mister");
+// // $test->setUserFirstame("Toto");
+// //$test->setUserEmail("toto@toto.com");
+// // $test->setBirthDate("1975-03-19");
 
 // $connexion = new Sql();
 
-// var_dump($test->inscription($connexion));
+// var_dump($test->delete($connexion, "toto@toto.com"));
