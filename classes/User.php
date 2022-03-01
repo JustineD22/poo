@@ -1,6 +1,6 @@
 <?php
 
-class User
+abstract class User
 {
     private string $userName = "";
     private string $userFirstname = "";
@@ -66,11 +66,6 @@ class User
         VALUE ('$this->userName', '$this->userFirstname', '$this->userEmail', '$this->birthDate', 2)";
 
         $c->insertion($requete);
-    }
-
-    public function login ()
-    {
-        
     }
 
 }
